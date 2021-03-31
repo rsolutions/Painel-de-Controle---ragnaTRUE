@@ -1,0 +1,76 @@
+    body {
+    background: #1a1a1a;
+    }
+    
+    #register {
+    margin: 100px auto;
+    width: 560px;
+    background: #f5f5f5;
+    border: solid 1px #c0c0c0;
+    padding: 10px;
+    -moz-border-radius: 10px;
+    
+    font-size: 10pt;
+    font-family: arial;
+    }
+    
+      #register div.head {
+      font-size: 14pt;
+      font-family: 'myriad pro', arial;
+      color: #000000;
+      border-bottom: solid 1px #8f8fb5;
+      margin-bottom: 10px;
+      }
+
+      #register div.errors {
+      line-height: 1.5em;
+      font-size: 12px;
+      margin: 5px;
+      padding: 5px;
+      background: #d0d0d0;
+      -moz-border-radius: 3px;
+      }
+      
+      #register a.alink {
+      color: #8f8fb5;
+      }
+      
+        #register a.alink:hover {
+        font-weight: bold;
+        }
+      
+      #register table {
+      margin: 10px auto 10px 2px;
+      border-collapse: collapse;
+      }
+      
+      #register td {
+      padding: 3px;
+      }
+      
+      #register td.td1 {
+      width: 140px;
+      border-left: solid 2px #8f8fb5; 
+      text-indent: 3px;
+      }
+      
+      #register td.td2 {
+      text-align: right;
+      }
+      
+      #register td.td3 {
+      border: 0;
+      padding-top: 5px;
+      }
+      
+      #register input[type='text'], #register input[type='password'] {
+      width: 200px;
+      border: 1px solid #cbcbcb;
+      text-indent: 2px;
+      }
+      
+      #register input[type='submit'] {
+      width: 80px;
+      border: solid 1px #cbcbcb;
+      background: #ffffff;
+      }
